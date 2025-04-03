@@ -7,106 +7,106 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
 
 ## Управление вкладками
 
-- **`<Tab>` — Next tab**
+- **`<Tab>` —**
   Переключиться на следующую вкладку (в плагине `bufferline.nvim`).
 
-- **`<Shift> + <Tab>` — Prev tab**
+- **`<Shift> + <Tab>` —**
   Переключиться на предыдущую вкладку (в плагине `bufferline.nvim`).
 
-- **`<Ctrl> + Tab` — Next tab**
+- **`<Ctrl> + Tab` —**
   Переключиться на следующую вкладку.
 
-- **`<Ctrl> + Shift + Tab` — Prev tab**
+- **`<Ctrl> + Shift + Tab` —**
   Переключиться на предыдущую вкладку.
 
 ## Управление окнами
 
-- **`<C-w><left>` — Decrease window width**
+- **`<C-w><left>` —**
   Уменьшить ширину окна слева.
 
-- **`<C-w><right>` — Increase window width**
+- **`<C-w><right>` —**
   Увеличить ширину окна справа.
 
-- **`<C-w><up>` — Increase window height**
+- **`<C-w><up>` —**
   Увеличить высоту окна.
 
-- **`<C-w><down>` — Decrease window height**
+- **`<C-w><down>` —**
   Уменьшить высоту окна.
 
-- **`sh` — Move to left window**
+- **`sh` —**
   Переместить фокус окна влево.
 
-- **`sk` — Move to upper window**
+- **`sk` —**
   Переместить фокус окна вверх.
 
-- **`sj` — Move to lower window**
+- **`sj` —**
   Переместить фокус окна вниз.
 
-- **`sl` — Move to right window**
+- **`sl` —**
   Переместить фокус окна вправо.
 
-- **`ss` — Split window horizontally**
+- **`ss` —**
   Разделить окно по горизонтали.
 
-- **`sv` — Split window vertically**
+- **`sv` —**
   Разделить окно по вертикали.
 
 ## Навигация и редактирование текста
 
-- **`x` — Cut character**
+- **`x` —**
   Вырезать символ под курсором без изменения регистра.
 
-- **`dw` — Delete word backwards**
+- **`dw` —**
   Удалить слово перед курсором.
 
-- **`+` — Increment number**
+- **`+` —**
   Увеличить число под курсором.
 
-- **`-` — Decrement number**
+- **`-` —**
   Уменьшить число под курсором.
 
-- **`<Leader>p` — Paste last yanked**
+- **`<Leader>p` —**
   Вставить последнее удаленное содержимое из "0" регистра.
 
-- **`<Leader>P` — Paste before cursor**
+- **`<Leader>P` —**
   Вставить перед курсором последнее удаленное содержимое.
 
-- **`<Leader>c` — Replace text**
+- **`<Leader>c` —**
   Заменить текст без изменения регистра.
 
-- **`<Leader>C` — Replace until end of line**
+- **`<Leader>C` —**
   Заменить до конца строки без изменения регистра.
 
-- **`<Leader>d` — Delete text**
+- **`<Leader>d` —**
   Удалить текст без изменения регистра.
 
-- **`<Leader>D` — Delete until end of line**
+- **`<Leader>D` —**
   Удалить до конца строки без изменения регистра.
 
-- **`<C-a>` — Select all**
+- **`<C-a>` —**
   Выделить весь текст в файле.
 
-- **`<Leader>o` — Insert line below**
+- **`<Leader>o` —**
   Вставить новую строку ниже и перейти в режим вставки.
 
-- **`<Leader>O` — Insert line above**
+- **`<Leader>O` —**
   Вставить новую строку выше и перейти в режим вставки.
 
 ## Дополнительные функции и отладка
 
-- **`<Ctrl> + j` — Next diagnostic**
+- **`<Ctrl> + j` —**
   Перейти к следующему диагностическому сообщению.
 
-- **`<C-m>` — Move forward in jumplist**
+- **`<C-m>` —**
   Перемещение вперед по списку переходов (jumplist).
 
-- **`<leader>r` — Replace hex with HSL**
+- **`<leader>r` —**
   Заменить шестнадцатеричный цвет на HSL.
 
-- **`<leader>i` — Toggle inlay hints**
+- **`<leader>i` —**
   Включить/выключить подсказки внутри кода (inlay hints).
 
-- **`<Leader>z` — Zen Mode**
+- **`<Leader>z` —**
   Включить или выключить режим "Zen Mode" для фокусированной работы (в плагине `zen-mode.nvim`).
 
 ## Основные команды редактирования
